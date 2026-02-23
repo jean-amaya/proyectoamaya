@@ -645,7 +645,7 @@ def main() -> None:
         st.sidebar.image("logo.png", use_container_width=True)
     except Exception:
         # Evitar fallos si no existe el archivo en el despliegue
-        st.sidebar.caption("logo.png no encontrado (opcional).")
+        st.sidebar.caption("DMC")
 
     pagina = st.sidebar.selectbox(
         "Selecciona una página",
